@@ -1,0 +1,233 @@
+section {
+	width: 100%;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+nav {
+	background-color: #c20000;
+	height: 65px;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+}
+
+.logo {
+	height: 75%;
+	margin: 10px;		;
+}
+
+.horario {
+	color: #cc0000;
+	font-weight: bold;
+}
+
+video {
+	width: 360px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+/* fonts style */
+h1 {
+	font-size: 4em;
+	margin-bottom: 15px;
+}
+h2 {
+	font-size: 2.5em;
+	margin-bottom: 1em;
+	color: #cc0000;
+}
+h3 {
+	font-size: 2em;
+	margin-bottom: 5px;
+}
+h4 {
+	font-size: 1.3em;
+	margin-bottom: 1.5em;
+}
+p {
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
+p, h1, h2, h3, h4, h5, h6, a {
+	font-family: 'Mukta Malar', sans-serif;
+}
+/*end fonts style*/
+
+
+/* sections*/
+.clear {
+	clear: both;
+	height: 20px;
+}
+
+#section1 {
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    height: 600px;
+    padding-top:10%;
+}
+
+#section2 {
+	background-color: #000;
+	margin-top: -10px;
+}
+
+#section3 {
+	background-color: #cc0000;
+	height: 140px;
+	margin-top:-10px;
+}
+
+#section5 {
+	background-color: #333;
+}
+
+#anuncios {
+	height: 500px;
+	padding: 20px;
+}
+/* end sections*/
+
+.contact-us {
+	margin-top: 5%;
+	text-align: left;
+	color: white;
+	width: 35%;	
+}
+
+.contact-icon {
+	width: 20px;
+	margin-right: 10px;
+}
+
+iframe {
+	border:0;
+	width:60%;
+	height: 450;
+	margin: 15px 0;
+}
+
+footer {
+	background-color: #c20000;
+	height: 50px;
+	margin-top:-10px;
+}
+
+.icon {
+	padding-top: 10px;
+	width: 30px;
+	float: right;
+	margin-left: 10px;
+}
+
+.MinTitle {
+	color: #cc0000;
+}
+
+/* large divs*/
+.large-9 {
+	width: 80%;
+	float: left;
+	margin-right: 2%;
+	padding: 10px;
+}
+
+.large-7 {
+	width: 40%;
+	float: left;
+	margin-right: 2%;
+	padding: 5%;
+}
+
+.large-6 {
+	width: 35%;
+	float: left;
+	margin-right: 2%;
+	padding: 10px;
+}
+
+.large-3 {
+	width: 15%;
+	float: left;
+	margin: 0 3%;
+	padding: 10px;
+}
+
+/* end large divs*/
+
+.transparent {
+	background-color: rgba(255,255,255,0.5);
+	margin-top:5%;
+}
+
+/* CAROUSEL Anuncios */
+
+.carousel-cell {
+  width: 70%;
+  height: 450px;
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  background-size: cover;
+}
+
+.anuncio1 {
+	  background-image: url("../img/carousel-1.jpeg");
+}
+.anuncio2 {
+	  background-image: url("../img/carousel-2.jpeg");
+}
+.anuncio3 {
+	  background-image: url("../img/carousel-3.jpeg");
+}
+
+.flickity-viewport {
+	height: 450px;
+}
+.carousel-cell {
+	height: 450px;
+}
+/*END ANUNCIOS*/
+
+
+@media only screen and (max-device-width: 670px) {
+	h2 {font-size: 4.5em;}
+	p {font-size:2.5em; margin-bottom: 1em; color: #000;}
+	nav {height: 180px; text-align: center;}
+	#section1 {height:1280px; background-image: url("../img/mobile-back.jpg"); background-size: cover; background-attachment: initial; background-position: 70% 0;}
+	#section3 {height: 250px;}
+	.large-9, .large-7, .large-6, .large-3 {width:90%; margin:0;}
+	.transparent {margin-top: 15%;}
+	video {margin-bottom: 70px; height: 80px;}
+	.left, .right {text-align:center; width: 100%; clear: both;}
+	.icon {float: none;}
+	.icon {width: 50px;}
+	iframe {width: 100% !important;}
+	.contact-us {margin: 10px auto 10px 0;}
+	.location h4 {float:left; margin: 10px 20px; font-size: 2em;}
+	footer p {font-size: 2em;}
+	footer {height: 180px;}
+	.carousel-cell {width: 95%;}
+}

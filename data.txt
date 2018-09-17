@@ -1,0 +1,33 @@
+https://iglesiavidayesperanza.com/ 
+https://iglesiavidayesperanza.com/wp-admin/ 
+https://carolina-yang-cv.000webhostapp.com/ 
+
+Lato Font
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+RADIO INFO
+Esta info es para gestionar la información, método de pago, dar información del titular, etc.
+
+
+Esta info es para administrar la radio, desde acá se pueden subir los temas, se puede encender, apagar, pausar, eliminar, etc. todo lo que respecta al manejo técnico de la radio: 
+
+
+Y este es un instructivo de como manejar el panel de control, y como poner en marcha todo, ya lo hice también se puede hacer programas en vivo y la radio lo reproduce, instalé winamp en la laptop de la iglesia y lo probé, funciona sería mejor igual si pudiéramos conectarlo por cable y no por wifi a internet, porque si la señal se pierde también el vivo y pasa a streaming, también si queremos pasar un culto con la parte de adoración en vivo, sería bueno que todos los instrumentos pasen por la consola, porque de ahí saca el sonido, la batería y la guitarra a veces no pasa entonces eso es un tema, que tal vez después veamos como solucionar.
+ 
+
+
+
+
+------------------------------------------------------
+
+<video controls="" autoplay="" name="media"><source src="http://vfct1101.avnam.net:8142/live" type="audio/mpeg"></video>
+
+--------------------
+
+<iframe class="right large-6" src="http://vfct1101.avnam.net:8142/live" style="height:120px;" frameborder="NO" scrolling="NO"></iframe>
+
+-----------------------------------------
+<code>
+<iframe src="http://avradio.avnam.net/players/combinados/streaming1212/index.php" width="370px" height="173px" frameborder="NO" marginwidth="0px" marginheight="0px" scrolling="NO"></iframe>
+</code>
+
